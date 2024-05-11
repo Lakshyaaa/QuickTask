@@ -10,13 +10,9 @@ class TaskBloc extends Bloc<TaskEvent, TaskState> {
     on<TaskEvent>((event, emit) {});
 
     on<AddTaskScreen>(addTaskDialog);
-
     on<AddTaskData>(addTask);
-
     on<GetAllTask>(getAllTask);
-
     on<UpdateTask>(updateTask);
-
     on<DeleteTask>(deleteTask);
   }
 

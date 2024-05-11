@@ -20,7 +20,7 @@ class TaskListRoutes {
         return BlocProvider(
           create: (context) => TaskBloc(),
           child: const LayoutOne(
-            title: "Mini Task Manager",
+            title: "QuickTask Manager",
             logout: true,
             child: module.HomePage(),
           ),
